@@ -1,0 +1,44 @@
+/* stylelint-disable */
+@import "@/styles/theme.scss";
+
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+
+/* theme color
+--------------------- */
+$--color-primary: $color-primary;
+
+$--color-success: $color-success;
+$--color-warning: $color-warning;
+$--color-danger: $color-danger;
+$--color-info: $color-info;
+
+$--color-white: $color-white;
+$--color-black: $color-black;
+
+$--color-text-primary: $font-color-primary;
+$--color-text-regular: $font-color-regular;
+$--color-text-secondary: $font-color-secondary !default;
+$--color-text-placeholder: $font-color-placeholder !default;
+
+/* Font
+-------------------------- */
+$--font-size-base: $font-size-primary;
+$--font-size-small: $font-size-special;
+$--font-size-large: $font-size-regular;
+
+/* Background
+-------------------------- */
+$--background-color-base: $color-bg-primary;
+
+/* Border
+-------------------------- */
+$--border-color-base: $border-color;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

@@ -1,0 +1,115 @@
+export default [{
+  name: '门店',
+  fontclass: '.ych-icon-mendian',
+}, {
+  name: '加号',
+  fontclass: '.ych-icon-add',
+}, {
+  name: '短信',
+  fontclass: '.ych-icon-duanxin',
+}, {
+  name: '退出',
+  fontclass: '.ych-icon-logout',
+}, {
+  name: '提醒',
+  fontclass: '.ych-icon-tixing',
+}, {
+  name: '扫一扫',
+  fontclass: '.ych-icon-scan',
+}, {
+  name: '更多',
+  fontclass: '.ych-icon-gengduo',
+}, {
+  name: '金币',
+  fontclass: '.ych-icon-coin',
+}, {
+  name: '信息',
+  fontclass: '.ych-icon-info',
+}, {
+  name: '热气球未选中',
+  fontclass: '.ych-icon-balloon',
+}, {
+  name: '空',
+  fontclass: '.ych-icon-empty',
+}, {
+  name: '设置',
+  fontclass: '.ych-icon-setup',
+}, {
+  name: '账号 (1)',
+  fontclass: '.ych-icon-account',
+}, {
+  name: '加载',
+  fontclass: '.ych-icon-loading',
+}, {
+  name: 'logo',
+  fontclass: '.ych-icon-logo',
+}, {
+  name: '框',
+  fontclass: '.ych-icon-border',
+}, {
+  name: '货物',
+  fontclass: '.ych-icon-noshangpin',
+}, {
+  name: '减号',
+  fontclass: '.ych-icon-small',
+}, {
+  name: '消息',
+  fontclass: '.ych-icon-news',
+}, {
+  name: '退格',
+  fontclass: '.ych-icon-backspace',
+}, {
+  name: '账单',
+  fontclass: '.ych-icon-bill',
+}, {
+  name: '票',
+  fontclass: '.ych-icon-ticket',
+}, {
+  name: '账本',
+  fontclass: '.ych-icon-account-book',
+}, {
+  name: '钱包',
+  fontclass: '.ych-icon-wallet',
+}, {
+  name: '台球',
+  fontclass: '.ych-icon-billiards',
+}, {
+  name: '商品',
+  fontclass: '.ych-icon-goods',
+}, {
+  name: '电话',
+  fontclass: '.ych-icon-dianhua',
+}, {
+  name: '关闭',
+  fontclass: '.ych-icon-close',
+}, {
+  name: '订单 (2)',
+  fontclass: '.ych-icon-order',
+}, {
+  name: '关  闭',
+  fontclass: '.ych-icon-guanbi',
+}, {
+  name: '付款',
+  fontclass: '.ych-icon-payment',
+}, {
+  name: '扫码枪插图',
+  fontclass: '.ych-icon-scan-phone',
+}, {
+  name: '指纹',
+  fontclass: '.ych-icon-finger',
+}, {
+  name: '身份证',
+  fontclass: '.ych-icon-id-card',
+}, {
+  name: '会员卡',
+  fontclass: '.ych-icon-member-card',
+}, {
+  name: '键盘',
+  fontclass: '.ych-icon-keyboard',
+}, {
+  name: '扩展',
+  fontclass: '.ych-icon-kuozhan',
+}, {
+  name: '扩展',
+  fontclass: '.ych-icon-zoom',
+}];

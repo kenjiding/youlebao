@@ -1,0 +1,36 @@
+{
+  "base_headers": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "zh-CN,zh;q=0.8",
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Host": "nei.netease.com",
+    "Referer": "https://nei.netease.com/dashboard/",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36 QQBrowser/4.3.4986.400"
+  },
+  "cookies": {
+    "S_INFO": "1547102805|0|3&80##|wangx614630",
+    "koa.sid": "u7meNxRDLOIYR64KY-vZvtrSgWXTbUG2",
+    "koa.sid.sig": "A7kI3xnFeqKUC4HCTs4pPdZ2pa8"
+  },
+  "api_base_headers": {
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept-Language": "zh-CN,zh;q=0.8",
+    "Connection": "keep-alive",
+    "Host": "www.iconfont.cn",
+    "Referer": "http://www.iconfont.cn/manage/index?spm=a313x.7781069.1998910419.11&manage_type=myprojects&projectId=709954&keyword=",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36 QQBrowser/4.3.4986.400"
+  },
+  "api_cookies": {
+    "EGG_SESS_ICONFONT": "uU2KairIpP2-pi_4GWmRRXHdfWMMiKmMwP8EQbmYV_BIryntZZAUiN3_sp00CRQIGTsYxu69eoQR0xcmlaf_-opLvSEsEhvVB__FazsfY2J0H-8-ZjFVsijDHXUH5lyqnibR8FcHaSwE9uscYT_ZEbArjwOfCEAkjNSbB78KMh1VRp7Kj5AlIF4QqdCr8clbklUXaKp_kl0bqTHN5ZXsP6xx_xWrEVc3Wb1G_uDNW6JSC5FT5tJ1XltMBKVY3u71gar33bXExUp1VgSM7-Xsf1lPfXwENenVO0lENaghTXuJauwdSbbXFOSgUMOzKYgxp1le1SKiiBeXVUoYxSktoLmLkzuC8UNN2L_nO1-UoSRrBzEYux0CWOMEYA_WVYAzWKAHm-r_QV26AmVu9ZzXwu30ww3MFR-ZYMC1GyG5B4ROwEyJ1xmID9a8qKY8H0SEga9Kem7iM0qXUj6DAzXbma4F1xx00aYo0xk6XINr-Ip4qwjnNGLMDoNj2v3bZx_-mfY4fZsQq6hp7EPthsW5-ZZ9iMOZkR4nbqdSuBPpUi6q1laS87tw69IEXi1H153x7lvv090je5KZCwVr2q5tGsIqMaWZ2jhBRXWsk0n1cjOoC918G6pSidbjGxJoDflAPAJqeyO03ITl4crA0UqzCMxaoJa50YUY5YW_HmhCne4A5QInqvJwb_eQ9PAgd_ZhQpQMPYDm8RdH3Kcv1PK1FIPcv1te6WrVh55GSZ54YL8r82puNqi03ru33boV0zT2X_Hq4ZsspZiJg9Izr5TcDijPkbtIJeShh21lvV8YidMHa3spHpovtOpnHSFPURkYa3kgSMtAhpC7nekTiJeD_rShF_PfDWA0uo5IelQzAZ3kAMNkKTgWZgHrf8jz9NzutQynWE6hEBkZKwDTJs3-lgfC_kAg4FnrsDx9d9YtFBsygVk2z4ZUAO52KeMExckJ2KADcTcaQ3N5tKSXP4aGx5-0-nk5CEZDEROtSr_mqSjMSvP9rYsK-Efs5VWGdzBbKDl5V3-RU19ABgj9tBLGlIXTuq7ejmi77c3w4oYCLgAhcIGLqqeVwmU-qJFyhe3lcaVbCsHtC9JN3Lx4qrbFUg==",
+    "ctoken": "OplYwgmPVShJOfBVDf_K5iZK"
+  },
+  "paths": {
+    "apiPath": "src/modules/sell/_api",
+    "iconPath": "src/styles/icon",
+    "svgPath": "src/styles/svg",
+    "modulePath": "src/modules"
+  }
+}

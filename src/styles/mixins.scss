@@ -1,0 +1,24 @@
+/* stylelint-disable */
+
+/**
+* 多行省略号
+*
+* $num  行数
+*/
+@mixin ellipsis ($num: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @if $num == 1 {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  @if $num > 1 {
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+  }
+}

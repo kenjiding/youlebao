@@ -1,0 +1,75 @@
+/* stylelint-disable */
+
+/* 主题色变量 */
+$color-primary: #328BEB;
+$color-regular: #4B5B79;
+
+/* 辅助颜色
+-------------------*/
+$color-success: #67C23A;
+$color-warning: #F5A623;
+$color-danger: #E54B5E;
+$color-info: #DDD;
+
+// $color-golden: #e0c490;
+$color-tag: #9ACAFF;
+$color-white: #FFF;
+$color-black: #000;
+
+$color-primary-light-0: mix($color-white, $color-primary, 5%);  /* #0d81ff */
+$color-primary-light-1: mix($color-white, $color-primary, 10%); /* #1a87ff */
+$color-primary-light-2: mix($color-white, $color-primary, 20%); /* #3395ff */
+$color-primary-light-3: mix($color-white, $color-primary, 30%); /* #4da2ff */
+$color-primary-light-4: mix($color-white, $color-primary, 40%); /* #66afff */
+$color-primary-light-5: mix($color-white, $color-primary, 50%); /* #80bdff */
+$color-primary-light-6: mix($color-white, $color-primary, 60%); /* #99caff */
+$color-primary-light-7: mix($color-white, $color-primary, 70%); /* #b3d7ff */
+$color-primary-light-8: mix($color-white, $color-primary, 80%); /* #cce4ff */
+$color-primary-light-9: mix($color-white, $color-primary, 90%); /* #e6f2ff */
+
+$color-regular-light-0: mix($color-white, $color-regular, 5%);  /* #546380 */
+$color-regular-light-1: mix($color-white, $color-regular, 10%); /* #5d6b86 */
+$color-regular-light-2: mix($color-white, $color-regular, 20%); /* #6f7c94 */
+$color-regular-light-3: mix($color-white, $color-regular, 30%); /* #818ca1 */
+$color-regular-light-4: mix($color-white, $color-regular, 40%); /* #939daf */
+$color-regular-light-5: mix($color-white, $color-regular, 50%); /* #a5adbc */
+$color-regular-light-6: mix($color-white, $color-regular, 60%); /* #b7bdc9 */
+$color-regular-light-7: mix($color-white, $color-regular, 70%); /* #c9ced7 */
+$color-regular-light-8: mix($color-white, $color-regular, 80%); /* #c9ced7 */
+$color-regular-light-9: mix($color-white, $color-regular, 90%); /* #edeff2 */
+
+/* 背景颜色
+----------------*/
+$color-bg-primary: #FFFFFF;
+$color-bg-regular: #FAFAFA;
+$color-bg-secondary: #F9F9F9;
+$color-bg-table: #EEEEEE;
+
+/* 边框
+-----------------*/
+$border-color: #DDDDDD;
+$border-radius-small: 4px;
+$border-radius: 6px;
+$border-radius-circle: 50%;
+
+/* 文本
+-----------------*/ 
+$font-size-primary: 14px;
+$font-size-regular: 20px;
+$font-size-secondary: 32px;
+
+$font-size-special: 12px;
+$font-size-mini: 10px;
+$font-size-bigger: 36px;
+
+$font-color-primary: #666;
+$font-color-regular: #333;
+$font-color-secondary: #999;
+
+$font-color-placeholder: #AAA;
+$font-color-special: #E54B5E;
+$font-color-currency: #FFA207;
+$font-color-golden: #E0C490;
+
+
+// $font-color-disable: #666666;

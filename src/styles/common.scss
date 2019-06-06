@@ -1,0 +1,177 @@
+/* stylelint-disable */
+
+@import '@/styles/theme.scss';
+
+@font-face { 
+  font-family: SourceHanSans;
+  src: url('./font/SourceHanSansCN-Regular.otf') format('opentype');
+} 
+
+@font-face { 
+  font-family: HelveticaNeue;
+  src: url('./font/HelveticaNeue.ttc') format('truetype');
+} 
+
+* {
+  font-size: $font-size-primary;
+  font-family: "SourceHanSans","HelveticaNeue"!important;
+}
+
+[class*="ych-icon-"] {
+  font-family: "iconfont" !important;
+  font-size: 1.5em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $font-color-regular;
+
+  &[hover=true]:hover {
+    color: $color-regular-light-1 !important;
+  }
+}
+
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  // -webkit-box-shadow: inset 0 0 5px $color-bg-secondary;
+  background: $font-color-placeholder;
+}
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  // -webkit-box-shadow: inset 0 0 5px $color-bg-secondary;
+  border-radius: 0;
+  // background: $color-bg-secondary;
+}
+::-webkit-scrollbar-corner {//滚动条的交汇处
+  background: $color-white;
+}
+//去除iuput的type类型为number时出现的上下箭头
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+
+//修改表格表头样式
+.el-table__header {
+  th {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    background-color: #F5F7FA;
+    color: $font-color-primary;
+    font-size: $font-size-primary;
+  }
+}
+//修改表格主体样式
+.el-table__body {
+  td {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    font-size: $font-size-primary;
+  }
+}
+//修改表格hover和选中效果
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #EEF1F6;
+}
+.el-table--enable-row-transition .el-table__body td {
+  transition: background-color .1s ease;
+}
+
+//增加单选框组边框
+.el-radio-group[border] {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+// 禁止修改的input样式
+.el-input.is-disabled .el-input__inner {
+  background-color: $color-bg-regular !important;
+}
+
+//解决消息弹框的默认padding影响布局的问题
+// .el-popover {
+//   padding: 0;
+// }
+
+//输入框禁止修改文字颜色
+.el-input.is-disabled .el-input__inner {
+  color: $font-color-regular;
+}
+
+//弹框圆角
+.el-dialog {
+  border-radius: $border-radius;
+}
+
+//弹框关闭按钮样式修改
+.el-dialog__headerbtn .el-dialog__close{
+  font-size: 22px;
+}
+
+//推送消息提示的样式修改
+.el-notification__title {
+  line-height: 20px;
+  min-height: 40px;
+}
+
+.el-notification {
+  top: 50px !important;
+}
+
+//解决选择器下拉选项没有底色的问题
+
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+  background-color: $color-bg-table !important;
+}
+
+//统一slot按钮样式
+.el-input-group__append {
+  background-color: $color-white;
+  color: $color-primary;
+  text-align: center;
+  > .el-button {
+    height: 40px;
+  }
+  &:hover {
+    background-color: $color-bg-table;
+  }
+}
+
+// 清空按钮样式
+.clear-btn {
+  background-color: $color-white!important;
+  color: $color-primary!important;
+  height: 40px;
+  border-color: #DDDDDD!important;
+  &:hover {
+    background-color: $color-bg-table!important;
+  }
+}
+
+// 统一改强提示的icon样式
+.el-message-box__status {
+  font-size: 48px !important;
+  transform: none !important;
+  top: 10px !important;
+}
+
+.el-message-box__status + .el-message-box__message {
+  padding-left: 60px !important;
+}
+
+.el-message--info .el-message__content {
+  color: $font-color-secondary;
+}
+
+.el-message .el-icon-info {
+  color: $font-color-secondary;
+}

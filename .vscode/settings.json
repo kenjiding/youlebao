@@ -1,0 +1,24 @@
+{
+  "emmet.syntaxProfiles": {
+      "vue-html": "html",
+      "vue": "html"
+  },
+  
+  "editor.wrappingIndent": "indent",
+  "editor.tabSize": 2,
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      {
+          "language": "html",
+          "autoFix": true
+      },
+      {
+          "language": "vue",
+          "autoFix": true,
+      }
+  ],
+  "eslint.autoFixOnSave": true,
+  "files.eol": "\n",
+}
