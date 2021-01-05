@@ -22,7 +22,7 @@
     "update:api": "vue-cli-service nei-api-update"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cube-ui": "^1.10.14",
     "dayjs": "^1.7.5",
     "electron-log": "^2.2.17",
